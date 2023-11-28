@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from kafka import KafkaProducer
 from json import dumps
-from ..Map.mapper import Mapper as Map
+from .Map.mapper import Mapper as Map
 from time import sleep
 class BaseProducer(ABC):
     
